@@ -186,6 +186,51 @@ Evaluate and Save:
 After training, the model will be evaluated on the test set and saved to Google Drive.
 ### Results
 The model's performance is measured using loss and accuracy metrics during training, validation, and testing. The results are displayed in the console and can be visualized using tools like matplotlib.
+Here’s the **Results** section for your `README.md` file, based on the output of the model. This section summarizes the training, validation, and testing performance in a clear and concise way.
+
+---
+
+The ResNet18 model was trained for **10 epochs** on a custom dataset, achieving excellent performance in both training and validation phases. Below is a summary of the results:
+
+### Training Performance
+- **Final Training Loss**: `0.0080`
+- **Final Training Accuracy**: `99.77%`
+- The model consistently achieved high accuracy (>99%) throughout the training process, indicating strong learning capabilities.
+
+### Validation Performance
+- **Final Validation Loss**: `0.0067`
+- **Final Validation Accuracy**: `99.83%`
+- The validation accuracy remained stable and high, demonstrating the model's ability to generalize well to unseen data.
+
+### Testing Performance
+- **Test Loss**: `0.0067`
+- **Test Accuracy**: `99.79%`
+- The model performed exceptionally well on the test set, confirming its robustness and reliability for image classification tasks.
+
+### Key Observations
+1. **High Accuracy**: The model achieved **>99% accuracy** across all phases (training, validation, and testing), indicating excellent performance.
+2. **Low Loss**: Both training and validation losses were consistently low, suggesting effective optimization and minimal overfitting.
+3. **Stability**: The model's performance remained stable across epochs, with no significant fluctuations in accuracy or loss.
+
+### Performance Over Epochs
+| Epoch | Train Loss | Train Acc | Val Loss | Val Acc |
+|-------|------------|-----------|----------|---------|
+| 1     | 0.0276     | 99.16%    | 0.0089   | 99.71%  |
+| 2     | 0.0145     | 99.62%    | 0.0085   | 99.72%  |
+| 3     | 0.0117     | 99.71%    | 0.0071   | 99.83%  |
+| 4     | 0.0098     | 99.72%    | 0.0097   | 99.75%  |
+| 5     | 0.0102     | 99.68%    | 0.0088   | 99.71%  |
+| 6     | 0.0079     | 99.79%    | 0.0059   | 99.83%  |
+| 7     | 0.0090     | 99.76%    | 0.0084   | 99.79%  |
+| 8     | 0.0069     | 99.84%    | 0.0090   | 99.75%  |
+| 9     | 0.0061     | 99.82%    | 0.0083   | 99.79%  |
+| 10    | 0.0080     | 99.77%    | 0.0067   | 99.83%  |
+
+### Conclusion
+The ResNet18 model demonstrated outstanding performance, achieving **>99% accuracy** on the test set. This makes it highly suitable for real-world image classification tasks. The model's stability, low loss, and high accuracy across all phases highlight its effectiveness and reliability.
+
+---
+
 ### Dependencies
 Python 3.x
 
